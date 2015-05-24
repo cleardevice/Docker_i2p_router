@@ -5,7 +5,6 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get -y install \
   software-properties-common \
-  sudo \
   net-tools \
   python-pip
 

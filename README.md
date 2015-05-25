@@ -12,7 +12,7 @@ Much of this is derived from [PrivacySolutions](https://github.com/PrivacySoluti
 
 Build image: `docker build -t <image tag> .`
 
-Run: `docker run -p 7657:7657 -p 4444:4444 -p 4445:4445 -p 7658:7658 i2p_router`
+Run: `docker run -p 7657:7657 -p 4444:4444 -p 4445:4445 -p 7658:7658 -p 6668:6668 i2p_router`
 
 Point your browser to localhost:7657 for the console.
 

@@ -2,8 +2,6 @@
 
 A simple dockerized i2p router on Ubuntu 14.04.
 
-Much of this is derived from [PrivacySolutions](https://github.com/PrivacySolutions/docker-i2p) implementation.
-
 ## Dependencies:
 
 * Docker

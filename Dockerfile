@@ -13,7 +13,7 @@ RUN apt-add-repository -y ppa:i2p-maintainers/i2p && apt-get update
 
 RUN apt-get -y install i2p
 
-RUN apt-get clean
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENV DEBIAN_FRONTEND newt
 

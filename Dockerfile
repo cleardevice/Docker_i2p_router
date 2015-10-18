@@ -1,18 +1,19 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.04.3
 MAINTAINER John Wesley <john.w.wes@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get -y install \
   software-properties-common \
-  net-tools \
-  python-pip
+  net-tools python-pip
 
 RUN pip install speedtest-cli
 
 RUN apt-add-repository -y ppa:i2p-maintainers/i2p && apt-get update
 
 RUN apt-get -y install i2p
+
+RUN apt-get clean
 
 ENV DEBIAN_FRONTEND newt
 

@@ -8,7 +8,7 @@ A simple dockerized i2p router on Ubuntu 14.04.3
 
 ## Usage
 
-Run: `docker run --rm -p 7657:7657 -p 4444:4444 -p 4445:4445 -p 7658:7658 -p 6668:6668 johnwesley/i2prouter`
+Run: `docker run --rm -p 7657:7657 -p 4444:4444 -p 4445:4445 -p 7658:7658 -p 6668:6668 johnwesley/i2p-router`
 
 Use the following [tutorial](https://geti2p.net/en/about/browser-config) to configure your browser, then ppint to `localhost:7657` for the i2p-console.
 

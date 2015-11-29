@@ -1,5 +1,5 @@
 FROM ubuntu:14.04.3
-MAINTAINER John Wesley <john.w.wes@gmail.com>
+MAINTAINER John Wesley <jw001478@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
